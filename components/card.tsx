@@ -7,7 +7,7 @@ interface CardProps{
     text: string
 }
 
-export default function Card({icon, header, text} :CardProps){
+export default function SmallCard({icon, header, text} :CardProps){
     return (
         <div className="w-[20vw] h-full bg-white rounded-md flex p-5 ">
             <div className="text-black font-bold pt-2">

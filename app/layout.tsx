@@ -27,14 +27,14 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={`${GeistSans.className} antialiased`}>
-          <Navbar />
-            <SignedOut>
-              <Home />
-            </SignedOut>
+           <Navbar />
+            {/*// <SignedOut> */}
+            {/* <Home /> */}
+            {/* </SignedOut>
             <SignedIn>
-              <UserButton />
+              <UserButton /> */}
           {children}
-            </SignedIn>
+            {/* </SignedIn> */}
         </body>
       </html>
     </ClerkProvider>
