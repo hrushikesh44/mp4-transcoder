@@ -9,12 +9,23 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.842.0",
     "@clerk/nextjs": "^6.23.3",
     "@ffmpeg/ffmpeg": "^0.12.15",
     "@ffmpeg/util": "^0.12.2",
+    "@types/axios": "^0.9.36",
+    "@types/dotenv": "^6.1.1",
+    "@types/multer": "^2.0.0",
+    "@types/multer-s3": "^3.0.3",
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.10.0",
+    "dotenv": "^17.1.0",
     "geist": "^1.4.2",
     "lucide-react": "^0.525.0",
+    "multer": "^2.0.1",
+    "multer-s3": "^3.0.1",
     "next": "15.3.5",
+    "next-connect": "^0.12.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
