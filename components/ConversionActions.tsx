@@ -1,8 +1,8 @@
 'use client';
 
 import { ConversionProgress } from '@/types/video';
-import ProgressBar from './ui/ProgressBar';
-import ErrorDisplay from './ui/ErrorDisplay';
+import {ProgressBar} from './ui/ProgressBar';
+import {ErrorDisplay} from './ui/ErrorDisplay';
 
 interface ConversionActionsProps {
   isConverting: boolean;
