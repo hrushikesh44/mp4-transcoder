@@ -1,4 +1,4 @@
-import { FileChartLine, FileVideo2, LucideVideotape, Pen, RulerDimensionLine, SlidersHorizontal, Upload, Videotape } from "lucide-react";
+import { ArrowRight, FileChartLine, FileVideo2, LucideVideotape, Pen, RulerDimensionLine, SlidersHorizontal, Upload, Videotape } from "lucide-react";
 import Link from "next/link";
 import SmallCard from "./card";
 
@@ -43,6 +43,18 @@ export default function Hero(){
             </div>
             <div className="my-5 h-fit w-fit flex justify-center p-2 hover:scale-105 duration-300  ">
                 <SmallCard icon={<RulerDimensionLine className="size-10" />} header={'Different dimensions'} text="Choose the dimensions you want to use to upload the video accordingly in different platforms."/>
+            </div>
+        </div>
+      </div>
+      <div className="flex justify-center my-10">
+        <div className="h-fit w-[80vw] border-y flex justify-center border-neutral-900/10 bg-gradient-to-tr from-purple-500 via-purple-300 to-pink-500 mt-20 shadow-lg mb-20 rounded-xl">
+            <div className="p-10 max-w-[50vw]">
+                <p className="text-5xl font-bold text-center text-white">Ready to convert using our Transcoder?</p>
+                <p className="text-xl text-center text-white pt-5">Be one of our early users to start using the product and provide your feedback. It's free and very secure.</p>
+                <Link href={"/transcode"} className="flex border border-neutral-300 rounded-full shadow-xl text-neutral-800 bg-neutral-100 w-fit p-5 mt-5 mx-auto text-lg font-medium hover:bg-neutral-800 hover:text-neutral-200 hover:duration-300 hover:border-neutral-700 hover:scale-105 transition-transform ease-in-out duration-300">
+                Try it now{' '}
+                    <ArrowRight className="size-6 ml-2 "/>
+                </Link>
             </div>
         </div>
       </div>
