@@ -9,8 +9,8 @@ interface CardProps{
 
 export default function SmallCard({icon, header, text} :CardProps){
     return (
-        <div className="w-[20vw] h-full bg-white rounded-md flex p-5 ">
-            <div className="text-black font-bold pt-2">
+        <div className="w-[20vw] h-full bg-white border border-black/10 rounded-md flex p-5 hover:scale-110 duration-300 group">
+            <div className=" font-bold pt-2">
                 <span >{icon}</span>
             </div>
             <div className="pl-3">
