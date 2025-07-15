@@ -8,7 +8,7 @@ export default function Hero(){
         <div>
         <div className="h-full flex justify-center items-center pb-12 ">
             <div className="flex flex-col mx-auto pt-36"> 
-            <span className="mx-auto text-3xl md:text-6xl text-[#121212] font-bold tracking-tighter">Convert videos online, <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-purple-400 to-pink-400">
+            <span className="mx-auto text-3xl md:text-6xl text-[#121212] font-bold tracking-tighter px-5 text-center">Convert videos online, <span className=" text-transparent bg-clip-text bg-gradient-to-r from-purple-600 via-purple-400 to-pink-400 text-center">
                 Instantly</span></span>
             <span className="mx-auto text-xl md:text-2xl text-neutral-600 pt-3 px-5 text-center ">
                 Powerful browser-based converting tool for linux users and everyone.
