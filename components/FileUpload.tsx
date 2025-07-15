@@ -29,7 +29,7 @@ export const FileUpload = ({ selectedFile, onFileSelect }: { selectedFile: File 
 
   return (
     <div 
-      className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center hover:border-blue-400 transition-colors"
+      className="border-2 border-dashed border-gray-300 rounded-lg p-8 text-center hover:border-purple-500 transition-colors"
       onDragOver={handleDragOver}
       onDrop={handleDrop}
     >
@@ -43,7 +43,7 @@ export const FileUpload = ({ selectedFile, onFileSelect }: { selectedFile: File 
       <Upload className="w-12 h-12 mx-auto mb-4 text-gray-400" />
       <button
         onClick={() => fileInputRef.current?.click()}
-        className="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors font-medium"
+        className= "text-white px-6 py-3 rounded-lg bg-gradient-to-tr from-purple-600 via-purple-400 to-pink-400  font-medium hover:scale-105 transition-transform duration-300 cursor-pointer"
       >
         Select Video File
       </button>

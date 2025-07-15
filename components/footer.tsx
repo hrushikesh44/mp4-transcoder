@@ -5,7 +5,7 @@ import React from 'react'
 
 export default function Footer(){
   return (
-    <div className='flex flex-col items-center justify-center border-t border-black/20 pt-10 bg-gradient-to-tr from-purple-500 to-pink-500'>
+    <div className='flex flex-col items-center justify-center border-t border-black/20 pt-10 bg-gradient-to-tr from-purple-600 via-purple-400 to-pink-400'>
         <div className='flex items-center justify-center mb-20'>
             <Link href='https://www.github.com/hrushikesh44' target='_blank' className='mr-10'>
                 <LucideGithub className='size-10 hover:scale-125 duration-300'/>

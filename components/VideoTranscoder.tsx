@@ -239,7 +239,7 @@ export default function VideoTranscoder() {
                     <button
                       onClick={convertVideo}
                       disabled={isConverting}
-                      className="w-full bg-green-600 text-white py-3 px-4 rounded-lg hover:bg-green-700 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors font-medium flex items-center justify-center gap-2"
+                      className="w-full bg-gradient-to-tr from-purple-600 via-purple-400 to-pink-400 text-white py-3 px-4 rounded-lg hover:bg-gradient-to-tr hover:from-purple-700 hover:via-purple-500 hover:to-pink-500 disabled:bg-gray-400 disabled:cursor-not-allowed transition-colors font-medium flex items-center justify-center gap-2"
                     >
                       <Play className="w-4 h-4" />
                       {isConverting ? 'Converting...' : 'Convert Video'}

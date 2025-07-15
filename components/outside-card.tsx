@@ -1,15 +1,14 @@
-
 import { ReactNode } from "react"
 
-interface CardProps{
+interface LargeCardProps{
     icon: ReactNode;
     header: string;
     text: string
 }
 
-export default function SmallCard({icon, header, text} :CardProps){
+export default function LargeCard({icon, header, text} :LargeCardProps){
     return (
-        <div className="h-fit w-[80vw] md:w-[20vw] md:h-full bg-white border border-black/10 rounded-md flex p-5 hover:scale-110 duration-300 group">
+        <div className="h-fit w-[80vw] md:w-[40vw] md:h-full bg-white border border-black/10 rounded-md flex p-5 hover:scale-110 duration-300 group">
             <div className=" font-bold pt-2">
                 <span >{icon}</span>
             </div>
